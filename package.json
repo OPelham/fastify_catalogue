@@ -14,6 +14,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OPelham/fastify_catalogue/issues"
+  },
+  "homepage": "https://github.com/OPelham/fastify_catalogue#readme",
   "dependencies": {
     "fastify": "^4.0.0",
     "fastify-plugin": "^3.0.0",
