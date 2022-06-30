@@ -18,11 +18,11 @@ schemes:
 - "https"
 - "http"
 paths:
-  /items:
+  /item:
     post:
       tags:
       - "items"
-      summary: "Add a new item to storage"
+      summary: "Add an individual item to storage"
       description: ""
       operationId: "addItem"
       consumes:
