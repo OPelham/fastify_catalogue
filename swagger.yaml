@@ -39,7 +39,6 @@ paths:
       responses:
         "200":
           description: "successful operation"
-paths:
   /items:
     get:
       tags:
