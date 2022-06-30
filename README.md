@@ -21,3 +21,5 @@ Run the test cases.
 ## Learn More
 
 To learn Fastify, check out the [Fastify documentation](https://www.fastify.io/docs/latest/).
+
+To view swagger see https://opelham.github.io/fastify_catalogue/ 
