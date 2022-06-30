@@ -22,7 +22,7 @@ paths:
     post:
       tags:
       - "items"
-      summary: "Add an individual item to storage"
+      summary: "Add an individual item to the catalogue"
       description: ""
       operationId: "addItem"
       consumes:
