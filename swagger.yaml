@@ -18,7 +18,7 @@ schemes:
 - "https"
 - "http"
 paths:
-  /item:
+  /items:
     post:
       tags:
       - "items"
@@ -39,7 +39,26 @@ paths:
       responses:
         "200":
           description: "successful operation"
-  /items:
+    put:
+      tags:
+      - "items"
+      summary: "Update an individual item to the catalogue"
+      description: ""
+      operationId: "updateItem"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "item object to be updated"
+        required: true
+        schema:
+          $ref: "#/definitions/ItemRequest"
+      responses:
+        "200":
+          description: "successful operation"
     get:
       tags:
       - "items"
