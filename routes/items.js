@@ -1,19 +1,17 @@
 'use strict'
 
-// const dbConnector = require("../plugins/db-connector")
 const { requireModule } = require("fastify-cli/util")
-const itemSchema = require("../routeOptions/schemas/itemSchema")
-const itemHandler = require("../routeOptions/routeHandlers/itemsHandler")
-const itemOption = require("../routeOptions/itemOption")
+// const itemSchema = require("../routeOptions/schemas/itemSchema")
+// const itemHandler = require("../routeOptions/routeHandlers/itemsHandler")
+const itemOption = require("../lib/options/itemOption")
 /**
  * A plugin that provide encapsulated routes
  * @param {FastifyInstance} fastify encapsulated fastify instance
  * @param {Object} options plugin options, refer to https://www.fastify.io/docs/latest/Reference/Plugins/#plugin-options
  */
 async function routes(fastify, options) {
-  // const collection = fastify.mongo.db.collection('catalogue_collection')
 
-  // routes
+  // routes (long form)
   // fastify.route({
   //   method: 'GET',
   //   url: '/items',
@@ -54,6 +52,7 @@ async function routes(fastify, options) {
   //   // handler: updateItemByIdHandler
   // })
 
+  //routes (short form)
   fastify.get('/items', itemOption.getAllItemsOptions)
 
   fastify.get('/items/:id', itemOption.getItemByIdOptions)
