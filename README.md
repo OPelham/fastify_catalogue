@@ -11,7 +11,7 @@ This project is a means for learning fastify
 - learn how to implement authentication/autherisation
 - deploy
 
-# Use guide
+# Use Guide
 
 ## [Open API Specification](https://opelham.github.io/fastify_catalogue/)
 
