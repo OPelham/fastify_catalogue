@@ -1,25 +1,37 @@
-# Simple Fastify Catalogue API [Fastify-CLI](https://www.npmjs.com/package/fastify-cli)
-This project was bootstrapped with Fastify-CLI.
+# Simple Fastify Catalogue API 
+This project was bootstrapped with [Fastify-CLI](https://www.npmjs.com/package/fastify-cli).
 
-## Available Scripts
+### AIM
+This project is a means for learning fastify
+#### PROJECT GOALS
+- implement simple crud api
+    - tested
+    - documented with Open API Spec
+- learn best practices
+- learn how to implement authentication/autherisation
+- deploy
+
+# Use guide
+
+## [Open API Specification](https://opelham.github.io/fastify_catalogue/)
+
+### Available Scripts
 
 In the project directory, you can run:
 
-### `npm run dev`
+#### `npm run dev`
 
 To start the app in dev mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### `npm start`
+#### `npm start`
 
 For production mode
 
-### `npm run test`
+#### `npm run test`
 
 Run the test cases.
 
-## Learn More
+### Learn More
 
 To learn Fastify, check out the [Fastify documentation](https://www.fastify.io/docs/latest/).
-
-To view swagger see https://opelham.github.io/fastify_catalogue/ 
